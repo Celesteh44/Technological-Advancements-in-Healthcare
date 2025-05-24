@@ -234,6 +234,31 @@ HTML_TEMPLATE = '''
                 </details>
             </div>
         </section>
+        <section>
+            <h2>AI in Healthcare</h2>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <details style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <summary><strong>AI-Assisted Radiology</strong></summary>
+                    AI tools now support radiologists by detecting patterns in medical imaging. <a href="https://www.nature.com/articles/s41591-019-0447-x" target="_blank">Learn more</a><br>
+                    <img src="/static/ai_radiology.jpg" alt="AI Radiology" onerror="this.onerror=null;this.src='/static/fallback.jpg';" width="300">
+                </details>
+                <details style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <summary><strong>AI Chatbots for Mental Health</strong></summary>
+                    Chatbots like Woebot use AI to support mental health and CBT techniques. <a href="https://woebothealth.com/" target="_blank">Visit Woebot</a><br>
+                    <img src="/static/ai_mental_health.jpg" alt="AI Mental Health" onerror="this.onerror=null;this.src='/static/fallback.jpg';" width="300">
+                </details>
+                <details style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <summary><strong>AI for Predictive Analytics</strong></summary>
+                    AI models help predict hospital readmissions and chronic condition risks. <a href="https://healthitanalytics.com/news/ai-predictive-analytics-tools-reduce-readmissions-risk" target="_blank">See article</a><br>
+                    <img src="/static/ai_predictive.jpg" alt="AI Predictive Analytics" onerror="this.onerror=null;this.src='/static/fallback.jpg';" width="300">
+                </details>
+                <details style="background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+                    <summary><strong>AI Drug Discovery</strong></summary>
+                    AI accelerates discovery of new drugs by predicting compound interactions. <a href="https://www.nature.com/articles/s41587-020-0650-9" target="_blank">Read research</a><br>
+                    <img src="/static/ai_drug_discovery.jpg" alt="AI Drug Discovery" onerror="this.onerror=null;this.src='/static/fallback.jpg';" width="300">
+                </details>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 HealthTech Insights. All rights reserved.</p>
