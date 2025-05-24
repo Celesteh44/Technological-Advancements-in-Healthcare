@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flask + API Demo</title>
+</head>
+<body>
+  <h1>Welcome to Flask!</h1>
+  <p id="message"></p>
+
+  <script>
+    fetch('/api/hello')
+      .then(res => res.json())
+      .then(data => {
+        document.getElementById('message').innerText = data.msg;
+      });
+  </script>
+</body>
+</html>
+
